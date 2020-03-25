@@ -1,0 +1,74 @@
+/* 03_home.css */
+/* 아래에 코드를 작성해 주세요. */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 500px;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+}
+.cover-title{
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    display: block;
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    padding-bottom: 50px;
+    user-select: none;
+}
+.cover button {
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(54, 120, 243);
+    color:white;
+    cursor: pointer;
+}
+.cover button:hover {
+    background-color: rgb(38, 85, 172);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33.3%;
+    
+}
+.column img{
+    width: 15vw;
+    margin: 0px auto;
+}
